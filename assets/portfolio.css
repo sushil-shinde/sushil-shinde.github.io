@@ -28,7 +28,8 @@ li{margin:.2rem 0}
 .btn:hover{transform:translateY(-2px);box-shadow:0 6px 16px rgba(21,127,143,.4)}
 @media (prefers-color-scheme:dark){.btn{color:#04141c}}
 .note{color:var(--muted);font-size:.95rem;font-style:italic}
-img{max-width:100%;height:auto;border:1px solid var(--line);border-radius:10px;display:block;margin:.8rem 0;box-shadow:var(--shadow)}
+img{max-width:100%;height:auto;border:1px solid var(--line);border-radius:12px;display:block;margin:.8rem 0;background:transparent;mix-blend-mode:multiply}
+@media (prefers-color-scheme:dark){img{mix-blend-mode:normal;background:#ffffff;padding:.5rem;border-color:var(--line)}}
 .tw{overflow-x:auto;margin:1rem 0;border-radius:10px;box-shadow:var(--shadow)}
 table{border-collapse:collapse;width:100%;min-width:34rem;font-size:.95rem;background:var(--card)}
 th,td{border:1px solid var(--line);padding:.6rem .8rem;text-align:left;vertical-align:top}
