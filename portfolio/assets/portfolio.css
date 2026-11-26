@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+
 :root{--bg1:#e6eefb;--bg2:#eef5fb;--bg3:#e8f6f7;--ink:#13233d;--muted:#516079;--teal:#157f8f;--blue:#2a5fc4;--card:#ffffff;--line:#cfdbec;--shadow:0 6px 22px rgba(20,50,100,.10);box-sizing:border-box}
 @media (prefers-color-scheme:dark){:root{--bg1:#0c1626;--bg2:#0f1c30;--bg3:#0d2230;--ink:#e8eef8;--muted:#a3b3cb;--teal:#4fc0d0;--blue:#7aa2f0;--card:#15233b;--line:#2a3d5c;--shadow:0 6px 22px rgba(0,0,0,.35)}}
 *{box-sizing:border-box}
@@ -36,3 +38,12 @@ th,td{border:1px solid var(--line);padding:.6rem .8rem;text-align:left;vertical-
 th{background:#12365f;color:#fff;font-weight:600}
 footer{border-top:1px solid var(--line);padding:1.5rem 1.25rem;color:var(--muted);font-size:.9rem;text-align:center}
 .name{margin:0 0 .15rem;color:#fff}
+
+/* Match the typography of the Google Sites portfolio. */
+body{font-family:"Open Sans",Arial,sans-serif;font-size:20px;font-weight:500;line-height:1.38}
+header h1{font-family:Georgia,"Times New Roman",serif;font-size:48px;font-weight:400;line-height:1.38;letter-spacing:normal}
+header .sub{font-family:Georgia,"Times New Roman",serif;font-size:32px;font-weight:400;line-height:1.5}
+h2,h3{font-family:"Open Sans",Arial,sans-serif;font-size:24px;font-weight:700;line-height:1.5;letter-spacing:normal}
+nav a{font-size:16px;font-weight:400}
+nav a[aria-current="page"]{font-weight:700}
+@media(max-width:600px){header h1{font-size:36px}header .sub{font-size:26px}}
