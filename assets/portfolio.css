@@ -6,7 +6,7 @@ body{margin:0;color:var(--ink);font-family:Inter,"Segoe UI",system-ui,-apple-sys
 h1,h2,h3,nav,.btn,.eyebrow{font-family:inherit}
 header{position:relative;overflow:hidden;color:#fff;padding:2.6rem 1.25rem 0;background:radial-gradient(circle at 85% 20%,rgba(79,192,208,.38),transparent 45%),radial-gradient(circle at 10% 110%,rgba(122,162,240,.25),transparent 40%),linear-gradient(135deg,#0a1b34 0%,#12365f 55%,#17657f 100%);box-shadow:0 4px 18px rgba(10,27,52,.25)}
 .wrap{max-width:75rem;margin:0 auto}
-.eyebrow{margin:0 0 .6rem;font-size:.8rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#9fe3ee}
+.eyebrow{margin:0 0 .5rem;font-size:1.15rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#9fe3ee}
 h1,.name{font-weight:700;font-size:clamp(1.9rem,5vw,2.8rem);line-height:1.15;margin:0 0 .5rem;letter-spacing:-.01em}
 .sub{margin:0 0 1.6rem;color:#d3e2f5;font-size:1.1rem;font-weight:400}
 nav{display:flex;flex-wrap:wrap;gap:.35rem}
